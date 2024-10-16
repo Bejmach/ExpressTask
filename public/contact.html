@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="localhost:3000/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="anout.html">O nas</a>
+        <a href="offer.html">Oferta</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+    <h1>Kontakt</h1>
+    <form action="/contact" method="post">
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="surname">
+        <label for="surname">Nazwisko</label>
+        <input type="text" name="surname" id="surname">
+        <label for="email">Mail</label>
+        <input type="email" name="email" id="email">
+        <label for="textArea">Strefa tekstu</label>
+        <textarea name="textArea" id="textArea" cols="50" rows="4"></textarea>
+    </form>
+    <footer>Maciej Bejmowicz 4C</footer>
+</body>
+</html>
